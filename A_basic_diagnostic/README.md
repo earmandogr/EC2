@@ -1,18 +1,22 @@
-# Project A – Basic System Diagnostics Script
+# Project A – Basic System Diagnostics and Cloud Support Simulation
 
-This project includes a simple Bash script, `diagnostico.sh`, designed to perform basic diagnostics on a Linux-based cloud server. It provides essential system health checks that are often required during support and troubleshooting sessions.
+This project simulates a support scenario for a cloud-based Linux server. It includes a Bash script (`diagnostico.sh`) that performs essential health checks and service monitoring.
 
-## Features
+##  Features
 
-- CPU usage overview  
-- Memory usage summary  
-- Disk space availability  
-- Network status and IP information  
+- CPU usage overview
+- Memory usage summary
+- Disk space availability
+- Network status and IP info
 - Recent system log errors
+- Service status checks for:
+  - Apache (Web Server)
+  - MariaDB (Database)
+  - Docker
 
-## Usage
+##  Usage
 
-1. Make the script executable:
-   ```bash
-   chmod +x diagnostico.sh
-This project simulates basic support for remote diagnostics on Linux systes in the cloud 
+Make the script executable:
+
+```bash
+chmod +x diagnostico.sh
