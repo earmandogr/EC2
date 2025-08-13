@@ -1,48 +1,66 @@
----
 
-## Projects Overview
 
-### **A – Basic Diagnostic Script**
-- **Description:** Bash script that checks CPU, memory, disk, and network status.
-- **Skills:** Bash scripting, system monitoring, log management.
-- **Key File:** `diagnostico.sh`
+Cloud Infrastructure Projects Portfolio
 
----
+This repository contains a collection of hands-on projects showcasing my skills in cloud troubleshooting, automation, containerization, and infrastructure as code — directly aligned with the requirements of Cloud Support Engineering roles.
 
-### **B – Basic Backup Script**
-- **Description:** Bash script to compress and archive directories, saving backups in a dedicated folder.
-- **Skills:** Bash scripting, file compression, scheduling (cron-ready).
-- **Key File:** `backup.sh`
+Each project demonstrates practical problem-solving in real-world scenarios, using tools and technologies relevant to Scaleway's cloud ecosystem.
+
 
 ---
 
-### **C – System Monitor Script**
-- **Description:** Collects CPU load, memory usage, disk usage, and network information, saving reports with timestamps.
-- **Skills:** Bash scripting, log rotation, monitoring.
-- **Key File:** `monitor.sh`
+ Projects Overview
+
+A – Basic Diagnostic Script
+
+A Bash script that gathers key system diagnostics (CPU, memory, disk, network, logs) to quickly troubleshoot and assess system health.
+
+B – Basic Backup Automation
+
+Automates file backups using Bash scripting. Creates compressed archives with timestamps, demonstrating backup scheduling and retention practices.
+
+C – System Monitoring
+
+Logs CPU load, memory usage, disk space, and network configuration into timestamped reports for ongoing monitoring and auditing.
+
+D – Docker Container Deployment
+
+Deploys a Flask REST API inside a Docker container on AWS EC2. Includes port mapping, logging, and basic troubleshooting guidelines.
+
+E – Infrastructure as Code with Terraform
+
+Provisions an AWS EC2 instance using Terraform, with reusable configuration for consistent, version-controlled infrastructure deployment.
+
 
 ---
 
-### **D – Docker Container Deployment**
-- **Description:** Deploys a simple Flask API in a Docker container on EC2, exposing it via port 5000.
-- **Extras:** Container log monitoring and basic networking configuration.
-- **Skills:** Dockerfile creation, container deployment, log inspection.
-- **Key Files:** `Dockerfile`, `app.py`
+ Technologies Used
+
+Cloud: AWS (EC2, S3, IAM)
+
+Automation: Bash scripting, AWS CLI
+
+Containerization: Docker
+
+Infrastructure as Code: Terraform
+
+Version Control: Git & GitHub
+
+
 
 ---
 
-### **E – Terraform Infrastructure**
-- **Description:** Uses Terraform to provision an AWS EC2 instance with a specific AMI, instance type, and tags.
-- **Skills:** Infrastructure as Code (IaC), AWS provider configuration, Terraform state management.
-- **Key Files:** `main.tf`, `variables.tf`, `outputs.tf`
+ Relevance to Cloud Support
 
----
+These projects demonstrate:
 
-## Technologies Used
-- **AWS EC2**
-- **Bash Scripting**
-- **Docker**
-- **Terraform**
-- **Linux (Amazon Linux 2023)**
+Fast incident diagnostics and resolution.
 
----
+Automating repetitive cloud operations.
+
+Deploying containerized workloads.
+
+Managing infrastructure via code.
+
+Clear technical documentation for reproducibility.
+
