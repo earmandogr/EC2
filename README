@@ -1,6 +1,6 @@
 ---
 
-## 🚀 Projects Overview
+## Projects Overview
 
 ### **A – Basic Diagnostic Script**
 - **Description:** Bash script that checks CPU, memory, disk, and network status.
@@ -38,7 +38,7 @@
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **AWS EC2**
 - **Bash Scripting**
 - **Docker**
